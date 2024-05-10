@@ -1,5 +1,5 @@
 <!-- PARDUS ON ANDROID -->
-# 🔓 SETUP <a name=setup></a> 
+## 🔓 SETUP <a name=setup></a> 
 
 Requirements
 
@@ -25,8 +25,7 @@ Commands for setup:
   pkg install wget
   pkg install git 
    ```
-<br>
-# 🖥️ INSTALL PARDUS 
+## 🖥️ INSTALL PARDUS <a name=setup></a>
 
 
 
