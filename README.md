@@ -1,5 +1,5 @@
 <!-- PARDUS ON ANDROID -->
-# 🐯 PARDUS ON ANDROID 
+# 📚 INDEX
 * 🔓 [Setup](#setup)
 * 📲 [Installation](#installation)
 * 🖥️ [Install desktops](#desktops)
