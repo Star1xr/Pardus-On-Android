@@ -1,5 +1,8 @@
 <!-- PARDUS ON ANDROID -->
 # 🐯 PARDUS ON ANDROID 
+* 🔓 [Setup](#setup)
+* 🖥️ [Installation](#installation)
+
 ### 🔓 SETUP <a name=setup></a> 
 ⚠️ Note: If you have downloaded a proot distro desktop on android with pulseaudio and if you have completed the setup commands, go to [Installation Pardus](#installation).
 
@@ -29,7 +32,7 @@ Commands for setup:
   pkg install wget
   pkg install git 
    ```
-### 🖥️ INSTALL PARDUS <a name=installation></a>
+### 🖥️ INSTALLATION PARDUS <a name=installation></a>
 
 
 
