@@ -1,6 +1,6 @@
 <!-- PARDUS ON ANDROID -->
 ## 🔓 SETUP <a name=setup></a> 
-(If you downloaded a proot distro desktop go to [Installation Pardus](#installation) 
+(If you downloaded a proot distro desktop with pulseaudio go to [Installation Pardus](#installation) ) 
 
 Requirements
 
