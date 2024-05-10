@@ -5,6 +5,15 @@
 * 🖥️ [Install desktops](#desktops)
 * ⬇️ [Download scripts to run the desktops](#easy-download)
 
+<br>
+<br>  
+
+---  
+---  
+
+<br>
+<br>
+
 ### 🔓 SETUP <a name=setup></a> 
 ⚠️ Note: If you have downloaded a proot distro desktop on android with pulseaudio and if you have completed the setup commands, go to [Installation Pardus](#installation).
 
