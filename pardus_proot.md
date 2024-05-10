@@ -4,7 +4,8 @@
 > [!NOTE]  
 >If you have downloaded a proot distro desktop on android with pulseaudio and if you have completed the setup commands, start with [Installation Pardus](#installation).
 
-> [!NOTE 2]
+
+> [!NOTE(AGAIN)]
 >I was inspired by [Droidmaster](https://github.com/LinuxDroidMaster).
 
 # PROOT-DISTRO(🐯 PARDUS) 
