@@ -13,7 +13,7 @@
 
 <br>
 <br>
-
+# 🐯 PARDUS ON TERMUX-X11
 ### 🔓 SETUP <a name=setup></a> 
 ⚠️ Note: If you have downloaded a proot distro desktop on android with pulseaudio and if you have completed the setup commands, go to [Installation Pardus](#installation).
 
