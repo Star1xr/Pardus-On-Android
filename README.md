@@ -1,5 +1,5 @@
 <!-- PARDUS ON ANDROID -->
-# PARDUS ON ANDROID 
+# 🐯 PARDUS ON ANDROID 
 ### 🔓 SETUP <a name=setup></a> 
 ℹ️ Note: If you have downloaded a proot distro desktop on android with pulseaudio and if you have completed the setup commands, go to [Installation Pardus](#installation). 
 
