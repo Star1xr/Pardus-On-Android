@@ -8,8 +8,8 @@ Install [Termux](https://github.com/termux/termux-app/releases/tag/v0.118.0) for
 Commands for setup:
 
 * Allow access to files. 
-   ```sh
-   termux-setup-storage 
-   ``` 
+  ```sh
+  termux-setup-storage 
+  ``` 
 
 
