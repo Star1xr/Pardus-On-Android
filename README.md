@@ -16,7 +16,7 @@ Commands for setup:
    ```sh
   pkg update && upgrade -y
    ```
-* Packages you need to install on Termux
+* Install packages you need to install on Termux
    ```sh
   pkg install x11-repo
   pkg install termux-x11-nightly
