@@ -1,24 +1,16 @@
 <!-- PARDUS ON ANDROID -->
 # 📚 INDEX
+
+> [!NOTE]  
+>If you have downloaded a proot distro desktop on android with pulseaudio and if you have completed the setup commands, start with [Installation Pardus](#installation). 
+
+# PROOT-DISTRO(🐯 PARDUS) 
 * 🔓 [Setup](#setup)
-* 📲 [Installation](#installation)
+* 📲 [Proot installation](#installation)
 * 🖥️ [Install desktops](#desktops)
 * ⬇️ [Download scripts to run the desktops](#easy-download)
 
-<br>
-<br>  
-
----  
----  
-
-<br>
-<br>
-
-
-# 🐯 PARDUS ON ANDROID 
-
 ### 🔓 SETUP <a name=setup></a> 
-⚠️ Note: If you have downloaded a proot distro desktop on android with pulseaudio and if you have completed the setup commands, go to [Installation Pardus](#installation).
 
 ℹ️ I was inspired by [Droidmaster](https://github.com/LinuxDroidMaster).
 
