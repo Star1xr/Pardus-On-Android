@@ -42,5 +42,10 @@ Commands for setup:
    ```
 ### 🖥️ INSTALLATION PARDUS <a name=installation></a>
 
+First, install pardus and login on proot-distro. 
 
+```
+pd install pardus
+pd login pardus
+```
 
