@@ -49,3 +49,21 @@ pd install pardus
 pd login pardus
 ```
 
+Change repo with debian, because pardus repo is not working. 
+
+```
+nano /etc/apt/sources.list
+```
+
+Add these line to end of file. 
+
+```
+deb http://ftp.debian.org/debian stable main contrib non-free
+```
+
+Then update packages and install the requred packages. 
+
+```
+apt update
+apt install sudo nano neofetch ##neofetch is optional.
+```
