@@ -6,7 +6,7 @@
 
 
 > [!NOTE]
->I was inspired by [Droidmaster](https://github.com/LinuxDroidMaster).
+>I was inspired by [Droidmaster](https://github.com/LinuxDroidMaster).If Xfce4 dont works, use another repo, like parrot os repo or ubuntu repo. 
 
 # PROOT-DISTRO(🐯 PARDUS) 
 * 🔓 [Setup](#setup)
