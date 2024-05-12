@@ -68,9 +68,21 @@ apt update
 apt install sudo nano neofetch ##neofetch is optional.
 ```
 
+# 👤 Adding users part 
+Run **adduser droidmaster and set password, enter on all the information form, and press y enter.**
+Then run **nano /etc/sudoers** and write **droidmaster ALL=(ALL:ALL) ALL** to root part. 
+
 Then install desktops. 
 
 ### 🖥️ INSTALL DESKTOPS  <a name=desktops></a>
+
+Login to pardus with user:
+
+```
+pd login pardus --user droidmaster
+```
+
+Install desktops(Choose one):
 
 ```
 sudo apt install xfce4 ##other desktops: change xfce4 part to
@@ -86,4 +98,38 @@ DON'T USE KDE!
 
 ### ⬇️ INSTALL SCRIPTS TO RUN DESKTOPS <a name=easy-download></a>
 
+xfce4:
+
+```
+wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/startxfce4_pardus.sh?token=GHSAT0AAAAAACQ3WA3PFHYY7AP44XFY2J2WZSAV5FQ
+```
+
+lxde:
+
+```
+wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/startlxde_pardus.sh?token=GHSAT0AAAAAACQ3WA3O2ZROVEO322RMNBYGZSAV6FA
+```
+
+gnome:
+
+```
+wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/startgnome_pardus.sh?token=GHSAT0AAAAAACQ3WA3PSXPKFDCLNXO6U4S4ZSAV6UA
+```
+
+cinnamon:
+
+```
+wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/startcinnamon_pardus.sh?token=GHSAT0AAAAAACQ3WA3PPQ67QWWDWDW5DQ6CZSAV7MA
+```
+
+Run scripts:
+
+```
+chmod +x startdesktop_pardus.sh
+./startdesktop_pardus.sh
+```
+
+(change desktop with your desktops like xfce4, lxde or cinnamon.)
+
+Enjoy Pardus On Android! 
 
