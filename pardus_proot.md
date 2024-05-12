@@ -64,7 +64,7 @@ deb http://ftp.debian.org/debian stable main contrib non-free
 Then update packages and install the requred packages. 
 
 ```
-apt update
+apt update && upgrade -y
 apt install sudo nano neofetch ##neofetch is optional.
 ```
 
