@@ -40,7 +40,7 @@ Commands for setup:
   pkg install wget
   pkg install git 
    ```
-### 🖥️ INSTALLATION PARDUS <a name=installation></a>
+### 📲 INSTALLATION PARDUS <a name=installation></a>
 
 First, install pardus and login on proot-distro. 
 
@@ -49,7 +49,7 @@ pd install pardus
 pd login pardus
 ```
 
-Change repo with debian, because pardus repo is not working. 
+Change repo with debian, because pardus repo is not working. (If you think that the operating system changes when you change the repo, you are wrong, type neofetch and see.)
 
 ```
 nano /etc/apt/sources.list
@@ -67,3 +67,21 @@ Then update packages and install the requred packages.
 apt update
 apt install sudo nano neofetch ##neofetch is optional.
 ```
+
+Then install desktops. 
+
+### 🖥️ INSTALL DESKTOPS  <a name=desktops></a>
+
+```
+sudo apt install xfce4 ##other desktops: change xfce4 part to
+
+LXDE: lxde
+
+GNOME: gnome-shell gnome-terminal gnome-tweaks gnome-software nautilus gnome-shell-extension-manager/
+
+CINNAMON: cinnamon
+```
+
+DON'T USE KDE!
+
+### ⬇️ INSTALL SCRIPTS TO RUN DESKTOPS <a name=easy-download></a>
