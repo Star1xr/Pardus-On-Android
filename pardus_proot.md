@@ -70,7 +70,7 @@ apt update && upgrade -y
 apt install sudo nano neofetch ##neofetch is optional.
 ```
 
-# 👤 Adding users part 
+## 👤 Adding users part 
 Run **adduser droidmaster and set password, enter on all the information form, and press y enter.**
 Then run **nano /etc/sudoers** and write **droidmaster ALL=(ALL:ALL) ALL** to root part. 
 
