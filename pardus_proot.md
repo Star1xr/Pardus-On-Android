@@ -55,9 +55,11 @@ Change repo with debian, because pardus repo is not working. (If you think that 
 nano /etc/apt/sources.list
 ```
 
-Add these line to end of file. 
+Delete all text and add these line to file. 
 
 ```
+deb http://depo.pardus.org.tr/pardus yirmiuc-deb main contrib non-free non-free-firmware
+deb-src http://depo.pardus.org.tr/pardus yirmiuc-deb main contrib non-free non-free-firmware
 deb http://ftp.debian.org/debian stable main contrib non-free
 ```
 
