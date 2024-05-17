@@ -105,11 +105,14 @@ wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/start
 ```
 
 ```
-chmod +x startdesktop_pardus.sh
-./startdesktop_pardus.sh
+##change name of startxfce_pardus.sh with:
+mv "startxfce4_pardus.sh?token=GHSAT0AAAAAACQ3WA3PFHYY7AP44XFY2J2WZSAV5FQ" startxfce_pardus.sh
+##give executable permissions to script and start desktop:
+chmod +x startxfce_pardus.sh
+./startxfce_pardus.sh
 ```
 
-(change desktop with your desktops like xfce4, lxde or cinnamon.)
+(To stop use right corner>username>log out>log out, exit the termux if you want *exit* on termux.)
 
 Enjoy Pardus On Android! 
 
