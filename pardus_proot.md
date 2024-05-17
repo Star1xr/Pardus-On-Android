@@ -81,7 +81,7 @@ Then install desktops.
 Login to pardus with user:
 
 ```
-pd login pardus --user droidmaster
+pd login pardus --user YOUR_USERNAME
 ```
 
 Install desktops(Choose one):
