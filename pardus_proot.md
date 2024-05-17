@@ -88,7 +88,10 @@ pd login pardus --user YOUR_USERNAME
 Install desktops(Choose one):
 
 ```
+#xfce(tested):
 sudo apt install pardus-xfce-desktop
+#gnome(Not tested!):
+sudo apt install pardus-gnome-desktop
 ```
 
 DON'T USE KDE!
