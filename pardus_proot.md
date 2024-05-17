@@ -105,9 +105,9 @@ wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/start
 ```
 
 ```
-##change name of startxfce_pardus.sh with:
+##*change name of startxfce_pardus.sh with:*
 mv "startxfce4_pardus.sh?token=GHSAT0AAAAAACQ3WA3PFHYY7AP44XFY2J2WZSAV5FQ" startxfce_pardus.sh
-##give executable permissions to script and start desktop:
+##*give executable permissions to script and start desktop:*
 chmod +x startxfce_pardus.sh
 ./startxfce_pardus.sh
 ```
