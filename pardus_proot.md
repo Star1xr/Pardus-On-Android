@@ -49,7 +49,7 @@ pd install pardus
 pd login pardus
 ```
 
-Change repo with debian, because pardus repo is not working. (If you think that the operating system changes when you change the repo, you are wrong, type neofetch and see.)
+Change the repos to working ones
 
 ```
 nano /etc/apt/sources.list
@@ -60,7 +60,8 @@ Delete all text and add these line to file.
 ```
 deb http://depo.pardus.org.tr/pardus yirmiuc-deb main contrib non-free non-free-firmware
 deb-src http://depo.pardus.org.tr/pardus yirmiuc-deb main contrib non-free non-free-firmware
-deb http://ftp.debian.org/debian stable main contrib non-free
+deb http://depo.pardus.org.tr/pardus yirmibir main non-free contrib
+deb-src http://depo.pardus.org.tr/pardus yirmibir main non-free contrib
 ```
 
 Then update packages and install the requred packages. 
@@ -87,44 +88,18 @@ pd login pardus --user YOUR_USERNAME
 Install desktops(Choose one):
 
 ```
-sudo apt install xfce4 ##other desktops: change xfce4 part to
-
-LXDE: lxde
-
-GNOME: gnome-shell gnome-terminal gnome-tweaks gnome-software nautilus gnome-shell-extension-manager/
-
-CINNAMON: cinnamon
+sudo apt install pardus-xfce-desktop
 ```
 
 DON'T USE KDE!
 
 ### ⬇️ INSTALL SCRIPTS TO RUN DESKTOPS <a name=easy-download></a>
 
-xfce4:
+xfce pardus:
 
 ```
 wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/startxfce4_pardus.sh?token=GHSAT0AAAAAACQ3WA3PFHYY7AP44XFY2J2WZSAV5FQ
 ```
-
-lxde:
-
-```
-wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/startlxde_pardus.sh?token=GHSAT0AAAAAACQ3WA3O2ZROVEO322RMNBYGZSAV6FA
-```
-
-gnome:
-
-```
-wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/startgnome_pardus.sh?token=GHSAT0AAAAAACQ3WA3PSXPKFDCLNXO6U4S4ZSAV6UA
-```
-
-cinnamon:
-
-```
-wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/startcinnamon_pardus.sh?token=GHSAT0AAAAAACQ3WA3PPQ67QWWDWDW5DQ6CZSAV7MA
-```
-
-Run scripts:
 
 ```
 chmod +x startdesktop_pardus.sh
