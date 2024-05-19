@@ -101,9 +101,7 @@ sudo apt install kde-standard
 > xfce pardus:
 
 ```
-wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/startxfce4_pardus.sh?token=GHSAT0AAAAAACQ3WA3PFHYY7AP44XFY2J2WZSAV5FQ
-
-mv "startxfce4_pardus.sh?token=GHSAT0AAAAAACQ3WA3PFHYY7AP44XFY2J2WZSAV5FQ" startxfce_pardus.sh
+wget https://raw.githubusercontent.com/Star1xr/Pardus-On-Android/main/scripts/startxfce4_pardus.sh
 
 chmod +x startxfce_pardus.sh
 
