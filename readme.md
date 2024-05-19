@@ -99,12 +99,6 @@ sudo apt install kde-standard
 Change info debian to pardus
 
 ```
-nano /etc/os-releases
-```
-
-Delete all text and ctrl-x y enter. And run this command:
-
-```
 echo 'PRETTY_NAME="Pardus GNU/linux 21"
 NAME="Pardus"
 VERSION_ID="yirmibir"
