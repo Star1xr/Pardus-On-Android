@@ -74,6 +74,12 @@ apt install sudo nano bash-completion neofetch ##neofetch is optional.
 Change info Pardus to Debian. 
 
 ```
+nano /etc/os-releases
+```
+
+Delete all text and ctrl-x y enter. And run this command:
+
+```
 echo 'PRETTY_NAME="Pardus GNU/linux 21"
 NAME="Pardus"
 VERSION_ID="yirmibir"
@@ -83,7 +89,7 @@ ID_LIKE="debian"
 HOME_URL="https://www.pardus.org.tr/"
 SUPPORT_URL="https://forum.pardus.org.tr/"
 BUG_REPORT_URL="https://talep.pardus.org.tr/servicedesk/customer/user/login?destination=portals"
-LOGO="pardus"' > /etc/o-releases 
+LOGO="pardus"' > /etc/os-releases 
 ```
 
 ## 👤 Adding users part  <a name=users></a>
