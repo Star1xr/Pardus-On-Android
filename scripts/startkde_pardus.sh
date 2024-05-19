@@ -21,6 +21,6 @@ sleep 1
 # and run KDE as user droidmaster.
 # Replace "pardus" with the name of your PRoot distribution that supports KDE.
 # Replace "startplasma-x11" with the appropriate command to start KDE on your distribution.
-proot-distro login pardus --user your_username -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
+proot-distro login pardus --user your_username --shared-tmp /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
 
 exit 0
