@@ -130,7 +130,7 @@ chmod +x startgnome_pardus.sh
 ./startgnome_pardus.sh
 ```
 
-for login with user, you need to change your_username part to your username script with `nano script.sh`, for example
+for login with user, you need to change your_username part to your username with `nano script.sh`command, for example
 `nano startkde_pardus.sh`. Change your_username to which is your added user on [users part](#users) example:
 
 ```
