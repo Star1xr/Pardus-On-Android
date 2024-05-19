@@ -6,7 +6,7 @@
 
 
 > [!NOTE]
->I was inspired by Muhammet on Pardus forum and Droidmaster on github. 
+>We did this with Muhammet from the Pardus forum. 
 
 # PROOT-DISTRO(🐯 PARDUS) 
 * 🔓 [Setup](#setup)
