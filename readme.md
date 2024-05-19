@@ -102,30 +102,32 @@ sudo apt install kde-standard
 
 ```
 wget https://raw.githubusercontent.com/Star1xr/Pardus-Android/main/scripts/startxfce4_pardus.sh?token=GHSAT0AAAAAACQ3WA3PFHYY7AP44XFY2J2WZSAV5FQ
-```
 
-
-*change name of **startxfce4_pardus.sh?token=GHSAT0AAAAAACQ3WA3PFHYY7AP44XFY2J2WZSAV5FQ** to **startxfce_pardus.sh** with:*
-
-```
 mv "startxfce4_pardus.sh?token=GHSAT0AAAAAACQ3WA3PFHYY7AP44XFY2J2WZSAV5FQ" startxfce_pardus.sh
-```
 
-*give executable permissions to script and start desktop:*
-
-```
 chmod +x startxfce_pardus.sh
+
 ./startxfce_pardus.sh
 ```
 
 > kde pardus
 
-```console
+```
 wget https://raw.githubusercontent.com/halak0013/Pardus-On-Android/main/scripts/startkde_pardus.sh
 
 chmod +x startkde_pardus.sh
 
 ./startkde_pardus.sh
+```
+
+> gnome pardus
+
+```
+wget https://raw.githubusercontent.com/Star1xr/Pardus-On-Android/main/scripts/startgnome_pardus.sh
+
+chmod +x startgnome_pardus.sh
+
+./startgnome_pardus.sh
 ```
 
 for login with user, you need to change script with `nano script.sh` . for example
