@@ -130,7 +130,7 @@ chmod +x startgnome_pardus.sh
 ./startgnome_pardus.sh
 ```
 
-for login with user, you need to change script with `nano script.sh` . for example
+for login with user, you need to change your_username part to your username script with `nano script.sh`, for example
 `nano startkde_pardus.sh`. Change your_username to which is your added user on [users part](#users) example:
 
 ```
@@ -143,7 +143,7 @@ to username like muhammet
 proot-distro login pardus --user muhammet --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
 ```
 
-(To stop use right corner>username>log out>log out, exit the termux if you want *exit* on termux.)
+(To stop use log out part.Go to username,exit logo or menu>log out>log out, exit the termux if you want *exit* on termux.)
 
 if you want to use mouse and keyboard you can edit termux-x11 preference:
 for example:
