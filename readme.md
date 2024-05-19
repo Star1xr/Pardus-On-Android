@@ -71,9 +71,6 @@ apt update && apt upgrade -y
 apt install sudo nano bash-completion neofetch ##neofetch is optional.
 ```
 
-Change info Pardus to Debian. 
-
-
 ## 👤 Adding users part  <a name=users></a>
 Run **adduser your_username and set password, enter on all the information form, and press y enter.**
 Then run **nano /etc/sudoers** and write **your_username ALL=(ALL:ALL) ALL** to root part. 
