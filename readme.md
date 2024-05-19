@@ -125,7 +125,7 @@ LOGO="pardus"' > /etc/os-releases
 > xfce pardus:
 
 ```
-wget https://raw.githubusercontent.com/Star1xr/Pardus-On-Android/main/scripts/startxfce4_pardus.sh
+wget https://raw.githubusercontent.com/Star1xr/Pardus-On-Android/main/scripts/startxfce_pardus.sh
 
 chmod +x startxfce_pardus.sh
 
