@@ -96,7 +96,7 @@ sudo apt install pardus-gnome-desktop
 sudo apt install kde-standard
 ```
 
-Change info debian to pardus
+Delete all text on os-release with **nano /etc/os-release** and change info debian to pardus:
 
 ```
 echo 'PRETTY_NAME="Pardus GNU/linux 21"
@@ -108,7 +108,7 @@ ID_LIKE="debian"
 HOME_URL="https://www.pardus.org.tr/"
 SUPPORT_URL="https://forum.pardus.org.tr/"
 BUG_REPORT_URL="https://talep.pardus.org.tr/servicedesk/customer/user/login?destination=portals"
-LOGO="pardus"' > /etc/os-releases 
+LOGO="pardus"' > /etc/os-release 
 ``` 
 
 ### ⬇️ INSTALL SCRIPTS TO RUN DESKTOPS <a name=easy-download></a>
