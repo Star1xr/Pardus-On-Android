@@ -147,13 +147,13 @@ for login with user, you need to change your_username part to your username with
 `nano startkde_pardus.sh`. Change your_username to which is your added user on [users part](#users) example:
 
 ```
-proot-distro login pardus --user your_username --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
+proot-distro login pardus --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && su - your_username env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
 ```
 
 to username like muhammet
 
 ```console
-proot-distro login pardus --user muhammet --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
+proot-distro login pardus --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && su - muhammet env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
 ```
 
 (To stop use log out part.Go to username,exit logo or menu>log out>log out, exit the termux if you want use *exit* on termux.)
