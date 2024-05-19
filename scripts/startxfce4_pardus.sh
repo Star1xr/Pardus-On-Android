@@ -22,6 +22,6 @@ sleep 1
 # See also: https://github.com/termux/proot-distro
 # Argument -- acts as terminator of proot-distro login options processing.
 # All arguments behind it would not be treated as options of PRoot Distro.
-proot-distro login pardus --user your_username -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && -c "env DISPLAY=:0 xfce4-session"'
+proot-distro login pardus --user your_username --shared-tmp /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && -c "env DISPLAY=:0 xfce4-session"'
 
 exit 0
