@@ -73,24 +73,6 @@ apt install sudo nano bash-completion neofetch ##neofetch is optional.
 
 Change info Pardus to Debian. 
 
-```
-nano /etc/os-releases
-```
-
-Delete all text and ctrl-x y enter. And run this command:
-
-```
-echo 'PRETTY_NAME="Pardus GNU/linux 21"
-NAME="Pardus"
-VERSION_ID="yirmibir"
-VERSION="21"
-ID="pardus"
-ID_LIKE="debian"
-HOME_URL="https://www.pardus.org.tr/"
-SUPPORT_URL="https://forum.pardus.org.tr/"
-BUG_REPORT_URL="https://talep.pardus.org.tr/servicedesk/customer/user/login?destination=portals"
-LOGO="pardus"' > /etc/os-releases 
-```
 
 ## 👤 Adding users part  <a name=users></a>
 Run **adduser your_username and set password, enter on all the information form, and press y enter.**
@@ -116,6 +98,27 @@ sudo apt install pardus-gnome-desktop
 #kde(tested)
 sudo apt install kde-standard
 ```
+
+Change info debian to pardus
+
+```
+nano /etc/os-releases
+```
+
+Delete all text and ctrl-x y enter. And run this command:
+
+```
+echo 'PRETTY_NAME="Pardus GNU/linux 21"
+NAME="Pardus"
+VERSION_ID="yirmibir"
+VERSION="21"
+ID="pardus"
+ID_LIKE="debian"
+HOME_URL="https://www.pardus.org.tr/"
+SUPPORT_URL="https://forum.pardus.org.tr/"
+BUG_REPORT_URL="https://talep.pardus.org.tr/servicedesk/customer/user/login?destination=portals"
+LOGO="pardus"' > /etc/os-releases 
+``` 
 
 ### ⬇️ INSTALL SCRIPTS TO RUN DESKTOPS <a name=easy-download></a>
 
