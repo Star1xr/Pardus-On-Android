@@ -71,9 +71,9 @@ apt update && apt upgrade -y
 apt install sudo nano bash-completion neofetch ##neofetch is optional.
 ```
 
-## 👤 Adding users part 
-Run **adduser star1xx and set password, enter on all the information form, and press y enter.**
-Then run **nano /etc/sudoers** and write **star1xx ALL=(ALL:ALL) ALL** to root part. 
+## 👤 Adding users part  <a name=users></a>
+Run **adduser your_username and set password, enter on all the information form, and press y enter.**
+Then run **nano /etc/sudoers** and write **your_username ALL=(ALL:ALL) ALL** to root part. 
 
 Then install desktops. 
 
@@ -131,13 +131,16 @@ chmod +x startgnome_pardus.sh
 ```
 
 for login with user, you need to change script with `nano script.sh` . for example
-`nano startkde_pardus.sh`
-```console
-proot-distro login pardus --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
+`nano startkde_pardus.sh`. Change your_username to which is your added user on [users part](#users) example:
+
 ```
-to
+inproot-distro login pardus --user your_username -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
+```
+
+to username like muhammet
+
 ```console
-proot-distro login pardus --user user_name --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
+proot-distro login pardus --user muhammet --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
 ```
 
 (To stop use right corner>username>log out>log out, exit the termux if you want *exit* on termux.)
