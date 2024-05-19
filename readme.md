@@ -156,6 +156,13 @@ to username like muhammet
 proot-distro login pardus --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && su - muhammet env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
 ```
 
+In kde:
+```
+proot-distro login pardus --your_username --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && su - muhammet env DISPLAY=:0 dbus-launch --exit-with-session startplasma-x11'
+```
+
+Change your_username part to your username. 
+
 (To stop use log out part.Go to username,exit logo or menu>log out>log out, exit the termux if you want use *exit* on termux.)
 
 if you want to use mouse and keyboard you can edit termux-x11 preference:
