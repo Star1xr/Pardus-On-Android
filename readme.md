@@ -1,6 +1,6 @@
 <!-- PARDUS ON ANDROID -->
 
-<img src=![GitHub forks](https://img.shields.io/github/forks/Star1xr/Pardus-On-Android?style=plastic)
+![GitHub forks](https://img.shields.io/github/forks/Star1xr/Pardus-On-Android?style=plastic)
  >
 
 # 📚 INDEX
