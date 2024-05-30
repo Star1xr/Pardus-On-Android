@@ -1,7 +1,7 @@
 <!-- PARDUS ON ANDROID -->
 
-![GitHub forks](https://img.shields.io/github/forks/Star1xr/Pardus-On-Android?style=plastic)
- >
+![GitHub forks](https://img.shields.io/github/forks/Star1xr/Pardus-On-Android?style=flat)
+![GitHub followers](https://img.shields.io/github/followers/Star1xr?style=flat-square&color=Green)
 
 # 📚 INDEX
 
