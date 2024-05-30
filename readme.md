@@ -1,4 +1,7 @@
 <!-- PARDUS ON ANDROID -->
+<img src="https://img.shields.io/endpoint?url=%7B%20%22schemaVersion%22%3A%201%2C%20%22label%22%3A%20%22Pardus%22%2C%20%22message%22%3A%20%22Android%22%2C%20%22color%22%3A%20%22blue%22%20%7D
+">
+
 # 📚 INDEX
 
 > [!NOTE]  
