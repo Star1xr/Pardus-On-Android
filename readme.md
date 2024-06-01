@@ -95,8 +95,13 @@ Install desktops(Choose one):
 ```
 #xfce(tested):
 sudo apt install pardus-xfce-desktop
-#gnome(Not tested!):
+
+#gnome(tested):
 sudo apt install pardus-gnome-desktop
+#after installation of gnome,
+for file in $(find /usr -type f -iname "*login1*"); do rm -rf $file
+done
+
 #kde(tested)
 sudo apt install kde-standard
 ```
