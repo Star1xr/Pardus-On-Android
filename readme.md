@@ -2,6 +2,8 @@
 
 <!-- OUTDATED -->
 
+# OUTATED
+
 ![GitHub forks](https://img.shields.io/github/forks/Star1xr/Pardus-On-Android?style=flat)
 ![GitHub followers](https://img.shields.io/github/followers/Star1xr?style=flat&color=Green) 
 ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCjiPDxDhuZ4oVivXLA_O_TA?style=flat&logoColor=Orange)
