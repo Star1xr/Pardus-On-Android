@@ -3,6 +3,9 @@
 <!-- OUTDATED -->
 
 # OUTATED
+This method is outdated. But it doesn't means that it won't work.
+
+>Not stable
 
 ![GitHub forks](https://img.shields.io/github/forks/Star1xr/Pardus-On-Android?style=flat)
 ![GitHub followers](https://img.shields.io/github/followers/Star1xr?style=flat&color=Green) 
