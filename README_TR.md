@@ -1,6 +1,6 @@
 [🇺🇸 English](README.md) | [🇹🇷 Türkçe](README_TR.md)
 
-# Pardus on Android - Otomatik Kurulum Rehberi 🚀
+# Pardus Android - Otomatik Kurulum Rehberi 🚀
 
 Bu rehber, Android cihazınızda Termux kullanarak Pardus Linux'u en hızlı ve hatasız şekilde nasıl kuracağınızı anlatır. Hazırlanan script; gerekli tüm paketleri kurar, kullanıcı hesabınızı oluşturur ve masaüstü ortamını (XFCE, GNOME veya KDE) sizin için hazır hale getirir.
 
