@@ -101,7 +101,6 @@ chmod +x $SCRIPT_NAME
 
 echo "[*] Automatically configuring the startup script for user '$USERNAME'..."
 sed -i "s/your_username/$USERNAME/g" $SCRIPT_NAME
-sed -i "s/muhammet/$USERNAME/g" $SCRIPT_NAME
 
 echo "========================================="
 echo "Installation Complete!"
