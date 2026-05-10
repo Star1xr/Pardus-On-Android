@@ -103,9 +103,7 @@ wget $START_SCRIPT_URL -O $SCRIPT_NAME
 chmod +x $SCRIPT_NAME
 
 echo "[*] Başlatma scripti içindeki kullanıcı adları '$USERNAME' olarak güncelleniyor..."
-# Script içindeki 'your_username' ve eski 'muhammet' stringlerini yeni kullanıcı adıyla değiştirir
 sed -i "s/your_username/$USERNAME/g" $SCRIPT_NAME
-sed -i "s/muhammet/$USERNAME/g" $SCRIPT_NAME
 
 echo "========================================="
 echo "Kurulum Tamamlandı!"
