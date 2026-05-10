@@ -1,3 +1,4 @@
+[🇺🇸 English](README.md) | [🇹🇷 Türkçe](README_TR.md)
 
 # Pardus on Android - Auto Installation Script 🚀
 
