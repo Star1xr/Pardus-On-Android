@@ -9,7 +9,7 @@ An easy, automated way to install Pardus Linux on Android using Termux and proot
 
 1. Open Termux and download the automated script:
    ```bash
-   wget [https://raw.githubusercontent.com/Star1xr/Pardus-On-Android/main/install_en.sh](https://raw.githubusercontent.com/Star1xr/Pardus-On-Android/main/install_en.sh)
+   wget https://raw.githubusercontent.com/Star1xr/Pardus-On-Android/main/install_en.sh
 2. Make it executable:
    ```bash
    chmod +x install_en.sh
