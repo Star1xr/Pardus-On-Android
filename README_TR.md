@@ -16,7 +16,7 @@ Kurulumu tamamen otomatik hale getirmek için aşağıdaki komutları sırasıyl
 
 1.  **Kurulum betiğini indirin:**
     ```bash
-    wget [https://raw.githubusercontent.com/Star1xr/Pardus-On-Android/main/install_tr.sh](https://raw.githubusercontent.com/Star1xr/Pardus-On-Android/main/install_tr.sh)
+    wget https://raw.githubusercontent.com/Star1xr/Pardus-On-Android/main/install_tr.sh
     ```
 
 2.  **Dosyaya çalıştırma izni verin:**
